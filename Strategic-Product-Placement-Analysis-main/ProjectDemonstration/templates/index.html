@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-left">
+        <h1>Unveiling the Hidden Power of Product Positioning</h1>
+        <p class="tagline">Right Product. Right Place. Maximum Sales Impact.</p>
+
+        <div class="links">
+            <a href="https://www.youtube.com/watch?v=ZmgbcdDENAw" target="_blank" class="btn">▶ Watch Demo</a>
+            <a href="https://github.com/grandiradhika/Strategic-Product-Placement-Analysis.git" target="_blank" class="btn">💻 GitHub</a>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="{{ url_for('static', filename='images/image.jpg') }}" alt="Hero Image">
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About the Project</h2>
+
+    <div class="about-container">
+        
+        <!-- Overview -->
+        <div class="about-card">
+            <h3>📊 Project Overview</h3>
+            <p>
+                Strategic Product Placement Analysis is a data-driven project that explores how 
+                product positioning influences sales performance and consumer behavior. Using 
+                Tableau visualizations, the project uncovers patterns in placement strategies 
+                across retail stores, digital platforms, and media content to understand their 
+                impact on customer engagement and purchasing decisions.
+            </p>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="about-card">
+            <h3>⚠ Problem Statement</h3>
+            <p>
+                Retail and media companies invest heavily in product placement strategies but lack 
+                clear insights into how these placements affect sales and consumer preferences. 
+                Although data on sales, placement locations, and customer demographics is available, 
+                it is rarely analyzed together visually, making it difficult to identify effective 
+                positioning strategies and optimize marketing efforts.
+            </p>
+        </div>
+
+        <!-- Proposed Solution -->
+        <div class="about-card">
+            <h3>💡 Proposed Solution</h3>
+            <p>
+                This project provides an interactive Tableau-based analytics solution integrated 
+                into a web application. It visualizes relationships between product placement, 
+                sales trends, and consumer behavior, helping businesses identify high-impact 
+                placement strategies, understand customer preferences, and make data-driven 
+                decisions to maximize revenue and marketing effectiveness.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- DASHBOARD SECTION -->
+<section id="dashboard" class="section dashboard-section">
+    <h2>📈 Product Placement Analytics Dashboard</h2>
+    <p class="dashboard-subtitle">
+        Interactive Tableau visualization showcasing the impact of product positioning on sales performance and consumer behavior.
+    </p>
+
+    <div class="dashboard-container">
+        <!-- Tableau Embed -->
+        <div class='tableauPlaceholder' id='viz1771245242212' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='PRODUCT PLACEMENT ANALYSIS - DASHBOARD'
+                         src='https://public.tableau.com/static/images/Bo/Book1_17712426033970/Dashboard1/1_rss.png'
+                         style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'>
+                <param name='host_url' value='https://public.tableau.com/' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Book1_17712426033970/Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                       value='https://public.tableau.com/static/images/Bo/Book1_17712426033970/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-GB' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+    </div>
+</section>
+
+<script type='text/javascript'>
+var divElement = document.getElementById('viz1771245242212');
+var vizElement = divElement.getElementsByTagName('object')[0];
+
+vizElement.style.width = '100%';
+vizElement.style.height = '900px';  // Ensures full dashboard visibility
+
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+<!-- STORY SECTION -->
+<section id="story" class="section story-section">
+    <h2>📖 Product Placement Insight Story</h2>
+    <p class="story-subtitle">
+        A visual storytelling representation of how product positioning strategies influence sales trends and consumer engagement.
+    </p>
+
+    <div class="story-wrapper">
+        <div class="tableau-story-container">
+            <div class='tableauPlaceholder' id='viz1771245816006'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Story 1'
+                             src='https://public.tableau.com/static/images/Bo/Book1_17712426033970/Story1/1_rss.png'
+                             style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'>
+                    <param name='host_url' value='https://public.tableau.com/' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='path' value='views/Book1_17712426033970/Story1?:language=en-GB&:embed=true&publish=yes' />
+                    <param name='toolbar' value='yes' />
+                </object>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+var divElement2 = document.getElementById('viz1771245816006');
+var vizElement2 = divElement2.getElementsByTagName('object')[0];
+
+vizElement2.style.width = "100%";
+vizElement2.style.height = "100%";
+
+var scriptElement2 = document.createElement('script');
+scriptElement2.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+vizElement2.parentNode.insertBefore(scriptElement2, vizElement2);
+</script>
+
+<!-- TEAM SECTION -->
+<section id="team" class="section team-section">
+    <h2>👩‍💻 Our Team</h2>
+    <p class="team-subtitle">
+        Meet the talented team behind the Strategic Product Placement Analysis project.
+    </p>
+
+    <div class="team-grid">
+        <!-- Member 1 -->
+        <div class="team-card">
+            <h3>Iswarya Surekha Nagireddy</h3>
+            <p class="role">Team Leader</p>
+            <p class="college">Godavari Institute Of Engineering & Technology</p>
+            <p class="branch">CSD</p>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="team-card">
+            <h3>Basina Veera Bavitha</h3>
+            <p class="role">Team Member</p>
+            <p class="college">Godavari Institute Of Engineering & Technology</p>
+            <p class="branch">EEE</p>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="team-card">
+            <h3>Jyothi Lakshmi Sainath Reddy</h3>
+            <p class="role">Team Member</p>
+            <p class="college">Godavari Institute Of Engineering & Technology</p>
+            <p class="branch">CSE</p>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="team-card">
+            <h3>Radhika Naga Sai Laxmi Santhoshi Grandi</h3>
+            <p class="role">Team Member</p>
+            <p class="college">Godavari Institute Of Engineering & Technology</p>
+            <p class="branch">CSE</p>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video" class="section">
+    <h2>Project Demo Video</h2>
+    <div class="video-container">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZmgbcdDENAw"
+        title="YouTube video" frameborder="0" allowfullscreen></iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZmgbcdDENAw?si=qeAOulzvehsyZ-Ff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section contact-section">
+    <h2>📩 Contact Us</h2>
+    <p class="contact-subtitle">
+        Have questions or feedback about our Strategic Product Placement Analysis project? Reach out to us!
+    </p>
+
+    <div class="contact-container">
+        
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h3>Project Details</h3>
+            <p><strong>Team ID:</strong> LTVIP2026TMIDS82987</p>
+            <p><strong>Project:</strong> Strategic Product Placement Analysis</p>
+            <p><strong>Technology:</strong> Tableau + Flask Web Integration</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" action="/contact" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message 🚀</button>
+</form>
+
+
+    </div>
+</section>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+{% endblock %}
+
+
+
